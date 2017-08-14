@@ -1,0 +1,56 @@
+# ------------------------------------------------------------------  #
+#    _____ _    _          __  __ ______ _      ______ ____  _   _    #
+#   / ____| |  | |   /\   |  \/  |  ____| |    |  ____/ __ \| \ | |   #
+#  | |    | |__| |  /  \  | \  / | |__  | |    | |__ | |  | |  \| |   #
+#  | |    |  __  | / /\ \ | |\/| |  __| | |    |  __|| |  | | . ` |   #
+#  | |____| |  | |/ ____ \| |  | | |____| |____| |___| |__| | |\  |   #
+#   \_____|_|  |_/_/    \_\_|  |_|______|______|______\____/|_| \_|   #
+# ___________________________________________________________________ #
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.AppleDouble
+.LSOverride
+
+# generic files to ignore
+*~
+*.lock
+*.DS_Store
+[___]*
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Thumbnails
+._*
+*thumbs.db
+
+# Chameleon stuff to ignore
+.config
+.config.old
+*.svn
+Keymaps
+auto.config
+autoconf.h
+auto.conf
+autoconf.inc
+obj
+revision
+sym
+vers.h
+
+#ignore private workspace stuff added by Xcode
+xcuserdata
+project.xcworkspace
